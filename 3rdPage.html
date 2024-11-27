@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kristi&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sands+Hebrew+Condensed&display=swap">
+    <link rel="stylesheet" href="3rdPage.css">
+
+    <title>3rdPage</title>
+</head>
+
+<body>
+
+
+
+        <div class="center-content">
+            <img class="centerLogo" src="allDayFadeLogoNoBg.png" height="290px" width="290px">
+            <div class="text-container">
+                <h2 class="logo-text">ALLDAYFADE</h2>
+                <h5 class="barbershop-text">Barbershop</h5>
+            </div>
+        </div>
+
+        <h2 class="Choose"> Choose a Barber </h2>
+
+        <!-- haha -->
+        <div class="Xavier">
+            <img src="Xavier.png" height="46px" width="46px">
+        </div>
+
+        <div class="LilDopey">
+            <img src="LilDopey.png" height="46px" width="46px">
+        </div>
+
+        <div class="SSF">
+            <img src="StayFreshFade.png" height="46px" width="46px">
+        </div>
+
+
+
+        <div class="container">
+
+            <ul>
+                <li>
+                    <input type="radio" id="f-option" name="selector">
+
+                    <div class="BorderDopey">
+                        <label for="f-option">Lil Dopey</label>
+                    </div>
+
+
+
+                    <div class="check"></div>
+                </li>
+
+                <li>
+                    <input type="radio" id="s-option" name="selector">
+
+                    <div class="BorderXavier">
+                        <label for="s-option">Xavier</label>
+                    </div>
+
+                    <div class="check">
+                        <div class="inside"></div>
+                    </div>
+                </li>
+
+                <li>
+                    <input type="radio" id="t-option" name="selector">
+
+                    <div class="BorderSSF">
+                        <label for="t-option">StayFresh Fade</label>
+                    </div>
+
+                    <div class="check">
+                        <div class="inside"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="PROC">
+            <a href="#calendarPart" class="Proceed">Proceed</a>
+        </div>
+
+   
+        
+
+     <!-- Informations -->
+     
+
+    <input type="text" class="form-control" name="username" placeholder="Name : "/>
+    <input type="text" class="form-control2" name="username" placeholder="Phone +63 :" />
+
+    <div class="Book">
+        <a href="4thPage.html" class="bookNow">Book</a>
+    </div>
+
+    
+    
+    <!-- Preferred Time -->
+
+    <div class="btn-container">
+   
+        <button class="color-change-btn" onclick="changeColor(this)">10:30 AM</button>
+        <button class="color-change-btn" onclick="changeColor(this)">12:30 PM</button>
+        <button class="color-change-btn" onclick="changeColor(this)">1:30 PM</button>
+        <button class="color-change-btn" onclick="changeColor(this)">2:30 PM</button>
+        <button class="color-change-btn" onclick="changeColor(this)">3:30 PM</button>
+      </div>
+ 
+      
+
+    <h2 class="selectDate">Select a Date</h2>
+    <h2 class="preferredTime">Preferred Time</h2>
+    <h2 class="information">Information</h2>
+
+    <!-- Calendar -->
+   
+    <div class="container2">
+
+        
+            <div class="calendar">
+                <div class="front">
+                    <div class="current-date">
+
+                        <h1>May 2024</h1>
+                    </div>
+
+                    <section  id="calendarPart">  <!-- TO BE FIXED -->
+
+                    <div class="current-month">
+                        <ul class="week-days">
+                            <li>MON</li>
+                            <li>TUE</li>
+                            <li>WED</li>
+                            <li>THU</li>
+                            <li>FRI</li>
+                            <li>SAT</li>
+                            <li>SUN</li>
+                        </ul>
+
+                        <div class="weeks">
+                            <div class="first">
+                                <span class="last-month">28</span>
+                                <span class="last-month">29</span>
+                                <span class="last-month">30</span>
+                                <span class="last-month">31</span>
+                                <span class="last-month">01</span>
+                                <span class="last-month">02</span>
+                                <span class="last-month">03</span>
+                            </div>
+
+                            <div class="second">
+                                <span class="last-month">04</span>
+                                <span class="last-month">05</span>
+                                <span class="last-month">06</span>
+                                <span class="last-month">07</span>
+                                <span>08</span>
+                                <span>09</span>
+                                <span>10</span>
+                            </div>
+
+                            <div class="third">
+                                <span>11</span>
+                                <span>12</span>
+                                <span>13</span>
+                                <span>14</span>
+                                <span>15</span>
+                                <span>16</span>
+                                <span>17</span>
+                            </div>
+
+                            <div class="fourth">
+                                <span>18</span>
+                                <span>19</span>
+                                <span>20</span>
+                                <span>21</span>
+                                <span>22</span>
+                                <span>23</span>
+                                <span>24</span>
+                            </div>
+
+                            <div class="fifth">
+                                <span>25</span>
+                                <span>26</span>
+                                <span>27</span>
+                                <span>28</span>
+                                <span>29</span>
+                                <span>30</span>
+                                <span>31</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <script src="schedule.js"></script>
+                
+        </section>
+
+
+</body>
+
+</html>

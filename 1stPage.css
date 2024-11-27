@@ -1,0 +1,123 @@
+@media screen and (max-width: 768px) {
+    .hero-container {
+      flex-direction: column;
+      gap: 30px;
+      grid-template-columns: 1fr;
+    }
+}
+
+
+body {
+    background-color: #232423;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon img {
+    margin-left: 15px;
+}
+
+.iconName {
+    margin-top: 5px;
+    font-family: 'Kristi', cursive;
+    color: white;
+    font-size: 33px;
+}
+
+.Sliding {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: slide-in 1s forwards;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.Sliding {
+    position: relative ;
+    margin-bottom: 20px;
+    animation: slide-up 1s forwards;
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.center-content {
+    display: flex;
+    align-items: center;
+}
+
+.text-container {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.logo-text {
+    font-size: 70px;
+    font-family: 'Kristi', cursive;
+    color: white;
+  
+}
+
+.barbershop-text {
+    font-size: 24px;
+    color: white;
+    
+}
+
+.cut {
+    margin-top: 18px;
+}
+
+.getACut {
+    color: white;
+    text-decoration: none;
+    background-color: #5B6059;
+    padding: 9px 25px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.5s;
+    border: solid white;
+ }
+ 
+ 
+ .cut .getACut:hover {
+    background: transparent;
+    border: solid  white;
+    color: white;
+ }
+ 

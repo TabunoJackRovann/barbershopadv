@@ -1,0 +1,383 @@
+@media screen and (max-width: 768px) {
+    .hero-container {
+        flex-direction: column;
+        gap: 30px;
+        grid-template-columns: 1fr;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+body {
+    background-color: #232423;
+}
+
+/* position: absolute; "mao ni na code ang need nako" */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Sections */ 
+
+.Three {
+    background-color: #232423;
+    height: 110vh;
+}
+
+.foot1 {
+    max-width: 1450px;
+    margin: 0 auto;
+    height: 1px;
+    background-color: white;
+}
+
+.foot2 {
+    max-width: 1450px;
+    margin: 0 auto;
+    height: 1px;
+    background-color: white;
+}
+
+.foot3 {
+    max-width: 1450px;
+    margin: 0 auto;
+    height: 100px;
+    background-color: transparent;
+    /* temporary = DILI SA SIGURO NAKO NI HILABTAN KAY KAPOY*/
+}
+
+/* Nav Bar */ 
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    
+}
+
+.ADFhover {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.ADFhover .iconName:hover {
+    background: transparent;
+    color: grey;
+    transition: 0.4s ease-in-out;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon img {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.iconName {
+    margin-top: 5px;
+    font-family: 'Kristi', cursive;
+    color: white;
+    font-size: 33px;
+    text-decoration: none;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ul li {
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 27px;
+    font-size: 17px;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+
+ul li a:hover {
+    color: #5B6059;
+}
+
+/* Home Page */
+
+.introText {
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 60px;
+}
+
+.introText h2 {
+    font-size: 46px;
+    color: white;
+    font-family: 'Orelega One', cursive;
+
+}
+
+
+.introText p {
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 17px;
+    color: white;
+    font-family: 'Open Sands Hebrew Condensed', sans-serif;
+}
+
+
+.Book {
+    margin-top: 25px;
+}
+
+.bookNow {
+    color: white;
+    text-decoration: none;
+    background-color: #5B6059;
+    padding: 9px 25px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.5s;
+    border: solid white;
+}
+
+
+.Book .bookNow:hover {
+    background: transparent;
+    border: solid white;
+    color: white;
+}
+
+
+
+Details {
+    background-color: white;
+}
+
+section {
+    height: 90vh;
+    display: flex;
+}
+
+.One {
+    height: 120vh;
+}
+
+.Two {
+    height: 150vh;
+}
+
+.Two h2 {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 46px;
+    color: white;
+    font-family: 'Orelega One', cursive;
+}
+
+.Two p {
+    font-size: 17px;
+    color: white;
+    font-family: 'Open Sands Hebrew Condensed', sans-serif;
+}
+
+/* Details */
+
+.Des1 {
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 750px;
+}
+
+.Des2 {
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 80px;
+}
+
+.img1 {
+    position: absolute;
+    margin-top: 780px;
+    margin-left: 55px;
+    width: 600px;
+    border: solid white;
+    border-radius: 20px;
+}
+
+.img2 {
+    position: absolute;
+    margin-top: 1070px;
+    margin-left: 750px;
+    border: solid white;
+    border-radius: 20px;
+}
+
+.BTH {
+    margin-top: 710px;
+    margin-left: 78px;
+}
+
+.BackToHome {
+    color: white;
+    text-decoration: none;
+    background-color: #5B6059;
+    padding: 9px 25px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.5s;
+    border: solid white;
+}
+
+
+.BTH .BackToHome:hover {
+    background: transparent;
+    border: solid white;
+    color: white;
+}
+
+
+/* Top Barbers */
+
+.TB {
+    font-size: 50px;
+    color: white;
+    font-family: 'Orelega One', cursive;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Sumana:wght@700&display=swap");
+
+body { 
+    font-family: "Merriweather", serif;   
+}
+
+.person {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+}
+
+.container {
+    border-radius: 50%;
+    height: 312px;
+    transform: scale(0.48);
+    width: 400px;
+}
+
+
+.circle {
+    background-color: #fee7d3;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 380px;
+    left: 10px;
+    pointer-events: none;
+    position: absolute;
+    top: 210px;
+    width: 380px;
+}
+
+
+.img1 {
+    left: 22px;
+    top: 164px;
+    
+}
+
+.img2 {
+
+    top: 174px;
+    width: 444px;
+}
+
+.img3 {
+    left: -16px;
+    top: 144px;
+    width: 466px;
+}
+
+.name {
+    color: white;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 160px;
+    margin-left: 250px;
+}
+
+.descriptionOnBarbers {
+    color: white;
+    font-family: 'Open Sands Hebrew Condensed', sans-serif;
+    position: absolute;
+    font-size: 17px;
+    margin-top: 480px;
+    margin-left: 770px;
+}
+
+.BTH2 {
+    position: absolute;
+    margin-top: 610px;
+    margin-left: 770px;   
+}
+
+.BackToHome2 {
+    color: white;
+    text-decoration: none;
+    background-color: #5B6059;
+    padding: 9px 25px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.5s;
+    border: solid white;
+}
+
+
+.BTH2 .BackToHome2:hover {
+    background: transparent;
+    border: solid white;
+    color: white;
+}
+
+.Dopey {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.Xav {
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 150px;
+}
+
+.SFF {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 770px;
+}
